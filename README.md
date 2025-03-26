@@ -95,15 +95,11 @@ A Gen AI model will automate email classification by:
 **Challenge:** API requires `messages` format instead of `prompt`.  
 **Solution:** Used `v1/chat/completions` and `ObjectMapper` for proper JSON formatting.  
 
-#### 🔹 3. Jira API Authentication  
-**Challenge:** Jira requires `accountId`, and GitHub removed password authentication.  
-**Solution:** Used Jira API Token (PAT) and retrieved `accountId` via `/myself` API.  
-
-#### 🔹 4. Handling Attachments in Emails  
+#### 🔹 3. Handling Attachments in Emails  
 **Challenge:** Extracting and uploading email attachments to Jira.  
 **Solution:** Saved attachments locally and used `X-Atlassian-Token: no-check` for Jira uploads.   
 
-#### 🔹 5. Performance Optimization  
+#### 🔹 4. Performance Optimization  
 **Challenge:** Frequent polling could cause performance issues.  
 **Solution:** Optimized polling to run every 60 seconds and used async processing for Jira. 
 
