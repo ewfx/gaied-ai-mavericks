@@ -31,7 +31,17 @@ Categories & Subcategories Mapping:
 📹 [Video Demo](https://github.com/ewfx/gaied-ai-mavericks/tree/main/artifacts/demo)  
 🖼️ Screenshots:
 1. **Recieved Support Emails**
-![Recieved Support Emails](artifacts/screenshots/Received%20Support%20Emails.png)  
+![Recieved Support Emails](artifacts/screenshots/Received%20Support%20Emails.png)
+
+2. **Categorize and Create JIRAs**
+![Categorize and Create JIRAs](artifacts/screenshots/Respective%20JIRAs%20created%20with%20categorization.png)
+
+3. **Reply back to user with JIRA ticket**
+![Reply back to user with JIRA ticket](artifacts/screenshots/Reply%20to%20reporter%20with%20ticket%20details.png)
+![Detailed view of replied email](artifacts/screenshots/Detailed%20email.png)
+
+4. **Detailed JIRA Story**
+![Detailed JIRA story](artifacts/screenshots/Detailed%20JIRA%20story.png)
 
 ![Screenshot 1](link-to-image)
 
