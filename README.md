@@ -34,10 +34,10 @@ Categories & Subcategories Mapping:
 1. **Recieved Support Emails**
 ![Recieved Support Emails](artifacts/screenshots/Received%20Support%20Emails.png)
 
-2. **Categorize and Create JIRAs**
+2. **Use LLM to Categorize and create respective JIRAs**
 ![Categorize and Create JIRAs](artifacts/screenshots/Respective%20JIRAs%20created%20with%20categorization.png)
 
-3. **Reply back to user with JIRA ticket**
+3. **Acknowledge user with created JIRA ticket details**
 ![Reply back to user with JIRA ticket](artifacts/screenshots/Reply%20to%20reporter%20with%20ticket%20details.png)
 ![Detailed view of replied email](artifacts/screenshots/Detailed%20email.png)
 
