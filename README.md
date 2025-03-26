@@ -83,7 +83,7 @@ A Gen AI model will automate email classification by:
 ![Flow Diagram](artifacts/demo/Email%20Intel%20Flow%20Diagram.jpeg)
 
 **Architecture Diagram**
-![Architecture Diagram](arch/Email%20Intel%20Architecture%20Diagram.jpeg)
+![Architecture Diagram](artifacts/arch/Email%20Intel%20Architecture%20Diagram.jpeg)
 
 ## 🚧 Challenges We Faced
 
