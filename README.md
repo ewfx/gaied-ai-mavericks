@@ -43,16 +43,16 @@ What inspired you to create this project? Describe the problem you're solving.
 	•	Labels are added in Jira based on the classification.
 
 📌 Example Classification:
-🔹 Email Content: “I’m getting a 401 error when calling the API.”
-🔹 Classified As: Category: API Access Issues | Subcategory: 401 Unauthorized
-🔹 Jira Labels: API_Access_Issues, 401_Unauthorized
+- 🔹 Email Content: “I’m getting a 401 error when calling the API.”
+- 🔹 Classified As: Category: API Access Issues | Subcategory: 401 Unauthorized
+- 🔹 Jira Labels: API_Access_Issues, 401_Unauthorized
 
 A Gen AI model will automate email classification by:
-	1.	Reading and understanding the email content and attachments using NLP and AI models.
-	2.	Identifying intent and categorizing emails into Request Type & Sub Request Type.
-	3.	Extracting key attributes required for processing.
-	4.	Auto-assigning the request to the appropriate team/individual.
-	5.	Integrating with the loan servicing platform to generate service requests.
+	- 1.	Reading and understanding the email content and attachments using NLP and AI models.
+	- 2.	Identifying intent and categorizing emails into Request Type & Sub Request Type.
+	- 3.	Extracting key attributes required for processing.
+	- 4.	Auto-assigning the request to the appropriate team/individual.
+	- 5.	Integrating with the loan servicing platform to generate service requests.
 
 ## 🛠️ How We Built It
 	•	Gen AI & NLP Models (for understanding emails)
@@ -62,7 +62,26 @@ A Gen AI model will automate email classification by:
 	•	Jira API (for ticket creation & management)
 
 ## 🚧 Challenges We Faced
-Describe the major technical or non-technical challenges your team encountered.
+
+### 🔹 1. Gmail IMAP Email Processing  
+**Challenge:** Extracting text correctly from plain text, HTML, and multipart emails.  
+**Solution:** Used `JavaMail` with `Jsoup` to clean HTML and parse multipart emails.  
+
+### 🔹 2. OpenAI API Integration  
+**Challenge:** API requires `messages` format instead of `prompt`.  
+**Solution:** Used `v1/chat/completions` and `ObjectMapper` for proper JSON formatting.  
+
+### 🔹 3. Jira API Authentication  
+**Challenge:** Jira requires `accountId`, and GitHub removed password authentication.  
+**Solution:** Used Jira API Token (PAT) and retrieved `accountId` via `/myself` API.  
+
+### 🔹 4. Handling Attachments in Emails  
+**Challenge:** Extracting and uploading email attachments to Jira.  
+**Solution:** Saved attachments locally and used `X-Atlassian-Token: no-check` for Jira uploads.   
+
+### 🔹 6. Performance Optimization  
+**Challenge:** Frequent polling could cause performance issues.  
+**Solution:** Optimized polling to run every 60 seconds and used async processing for Jira. 
 
 ## 🏃 How to Run
 1. Clone the repository  
