@@ -86,7 +86,7 @@ A Gen AI model will automate email classification by:
 ## 🏃 How to Run
 1. Clone the repository  
    ```sh
-   git clone [https://github.com/your-repo.git](https://github.com/ewfx/gaied-ai-mavericks.git)
+   git clone https://github.com/ewfx/gaied-ai-mavericks.git
    ```
 2. Install dependencies  
    ```sh
