@@ -27,8 +27,8 @@ Categories & Subcategories Mapping:
 | **General Inquiries**        | Account Information, Company Policies, Partnership Opportunities |
 
 
-## 🎥 Demo
-📹 [Video Demo](artifacts/demo/Working%20demo.mov)
+# 🎥 Demo
+## 📹 [Video Demo](artifacts/demo/Working%20demo.mov)
 
 ## 🖼️ Screenshots:
 1. **Recieved Support Emails**
