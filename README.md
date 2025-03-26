@@ -34,7 +34,20 @@ Categories & Subcategories Mapping:
 ![Screenshot 1](link-to-image)
 
 ## 💡 Inspiration
-What inspired you to create this project? Describe the problem you're solving.
+1. **Automating Email-Based Support**  
+   - Reduce manual effort in reading emails, classifying requests, and creating Jira tickets.  
+
+2. **AI-Powered Email Classification**  
+   - Use OpenAI to intelligently categorize emails instead of relying on basic keyword matching.  
+
+3. **Seamless Jira Integration**  
+   - Automate ticket creation, categorization, and attachment handling in Jira for faster issue resolution.  
+
+4. **Improving Response Time**  
+   - Send instant auto-replies with Jira ticket details to enhance user experience.  
+
+5. **Scalability & Performance**  
+   - Handle a large volume of emails efficiently with automated workflows.  
 
 ## ⚙️ What It Does
 	Emails are classified into one of the categories using OpenAI.
