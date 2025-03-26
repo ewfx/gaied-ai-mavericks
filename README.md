@@ -102,6 +102,7 @@ A Gen AI model will automate email classification by:
 - 🔹 Other: OpenAI API / Jira API / GMAIL IMAP API
 
 ## 👥 Team
-- **Spallya Omar** 	- [GitHub](https://github.com/spallya) | [LinkedIn](https://in.linkedin.com/in/spallya-omar)
-- **Srinivas Dingari**  - [GitHub](https://github.com/srinivasd9) | [LinkedIn](https://www.linkedin.com/in/srinivasdingari/)
+- **Spallya Omar** 	  - [GitHub](https://github.com/spallya) | [LinkedIn](https://in.linkedin.com/in/spallya-omar)
+- **Srinivas Dingari**    - [GitHub](https://github.com/srinivasd9) | [LinkedIn](https://www.linkedin.com/in/srinivasdingari)
+- **Harshitha Marupaka**  - [GitHub](https://github.com/harshitha27) | [LinkedIn](https://in.linkedin.com/in/harshitha-alka-51871916a)
 
