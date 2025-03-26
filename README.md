@@ -29,7 +29,8 @@ Categories & Subcategories Mapping:
 
 ## 🎥 Demo
 📹 [Video Demo](https://github.com/ewfx/gaied-ai-mavericks/tree/main/artifacts/demo)  
-🖼️ Screenshots:
+
+## 🖼️ Screenshots:
 1. **Recieved Support Emails**
 ![Recieved Support Emails](artifacts/screenshots/Received%20Support%20Emails.png)
 
@@ -43,7 +44,6 @@ Categories & Subcategories Mapping:
 4. **Detailed JIRA Story**
 ![Detailed JIRA story](artifacts/screenshots/Detailed%20JIRA%20story.png)
 
-![Screenshot 1](link-to-image)
 
 ## 💡 Inspiration
 1. **Automating Email-Based Support**  
