@@ -30,6 +30,8 @@ Categories & Subcategories Mapping:
 ## 🎥 Demo
 📹 [Video Demo](https://github.com/ewfx/gaied-ai-mavericks/tree/main/artifacts/demo)  
 🖼️ Screenshots:
+1. **Recieved Support Emails**
+![Recieved Support Emails](artifacts/screenshots/Received%20Support%20Emails.png)  
 
 ![Screenshot 1](link-to-image)
 
