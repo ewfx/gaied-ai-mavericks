@@ -75,23 +75,23 @@ A Gen AI model will automate email classification by:
 
 ## 🚧 Challenges We Faced
 
-### 🔹 1. Gmail IMAP Email Processing  
+#### 🔹 1. Gmail IMAP Email Processing  
 **Challenge:** Extracting text correctly from plain text, HTML, and multipart emails.  
 **Solution:** Used `JavaMail` with `Jsoup` to clean HTML and parse multipart emails.  
 
-### 🔹 2. OpenAI API Integration  
+#### 🔹 2. OpenAI API Integration  
 **Challenge:** API requires `messages` format instead of `prompt`.  
 **Solution:** Used `v1/chat/completions` and `ObjectMapper` for proper JSON formatting.  
 
-### 🔹 3. Jira API Authentication  
+#### 🔹 3. Jira API Authentication  
 **Challenge:** Jira requires `accountId`, and GitHub removed password authentication.  
 **Solution:** Used Jira API Token (PAT) and retrieved `accountId` via `/myself` API.  
 
-### 🔹 4. Handling Attachments in Emails  
+#### 🔹 4. Handling Attachments in Emails  
 **Challenge:** Extracting and uploading email attachments to Jira.  
 **Solution:** Saved attachments locally and used `X-Atlassian-Token: no-check` for Jira uploads.   
 
-### 🔹 6. Performance Optimization  
+#### 🔹 5. Performance Optimization  
 **Challenge:** Frequent polling could cause performance issues.  
 **Solution:** Optimized polling to run every 60 seconds and used async processing for Jira. 
 
