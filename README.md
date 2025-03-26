@@ -28,7 +28,7 @@ Categories & Subcategories Mapping:
 
 
 ## 🎥 Demo
-📹 [Video Demo](https://github.com/ewfx/gaied-ai-mavericks/tree/main/artifacts/demo)  
+📹 [Video Demo](artifacts/demo/Working%20demo.mov)
 
 ## 🖼️ Screenshots:
 1. **Recieved Support Emails**
