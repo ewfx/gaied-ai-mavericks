@@ -94,7 +94,7 @@ A Gen AI model will automate email classification by:
    ```
 3. Run the project  
    ```sh
-   npm start  # or python app.py
+   ./mvnw spring-boot:run
    ```
 
 ## 🏗️ Tech Stack
