@@ -11,10 +11,10 @@
 		<relativePath/> <!-- Lookup parent from repository -->
 	</parent>
 
-	<groupId>com.email/classifier</groupId>
+	<groupId>com.email.classifier</groupId>
 	<artifactId>email-classifier</artifactId>
 	<version>1.0.0</version>
-	<name>mail-classifier</name>
+	<name>email-classifier</name>
 	<description>Gen AI Email Processing System</description>
 
 	<properties>
@@ -74,7 +74,7 @@
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
-			<version>1.18.36</version>
+			<version>1.18.36</version>  <!-- Use the latest version -->
 			<scope>provided</scope>
 		</dependency>
 
