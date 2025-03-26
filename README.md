@@ -1,4 +1,4 @@
-# 🚀 Project Name
+# 🚀 Email Intel
 
 ## 📌 Table of Contents
 - [Introduction](#introduction)
@@ -28,8 +28,7 @@ Categories & Subcategories Mapping:
 
 
 ## 🎥 Demo
-🔗 [Live Demo](#) (if applicable)  
-📹 [Video Demo](#) (if applicable)  
+📹 [Video Demo](https://github.com/ewfx/gaied-ai-mavericks/tree/main/artifacts/demo)  
 🖼️ Screenshots:
 
 ![Screenshot 1](link-to-image)
