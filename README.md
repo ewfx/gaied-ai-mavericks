@@ -98,11 +98,9 @@ A Gen AI model will automate email classification by:
    ```
 
 ## 🏗️ Tech Stack
-- 🔹 Frontend: React / Vue / Angular
-- 🔹 Backend: Node.js / FastAPI / Django
-- 🔹 Database: PostgreSQL / Firebase
-- 🔹 Other: OpenAI API / Twilio / Stripe
+- 🔹 Backend: Java 17 / Spring Boot
+- 🔹 Other: OpenAI API / Jira API / GMAIL IMAP API
 
 ## 👥 Team
-- **Your Name** - [GitHub](#) | [LinkedIn](#)
+- **Spallya Omar** - [GitHub](#https://github.com/spallya) | [LinkedIn](#)
 - **Teammate 2** - [GitHub](#) | [LinkedIn](#)
